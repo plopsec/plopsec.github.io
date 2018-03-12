@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Plopsec";
+  src: url('../fonts/plopsec.ttf');
+}
+
+h1 {
+  font-family: "Plopsec";
+  font-size: 3em;
+}
+
+h4 {
+    margin-left: 0.8em;
+}
+
+h5 {
+  margin-left: 1.5em;
+}
+
+body {
+  background-color: #3b3939;
+}
+
+.navbar {
+  background-color: #3b3939;
+}
+
+.nav-link {
+  font-family: "Plopsec";
+  font-size: 2em;
+  color: #eee;
+}
+
+.nav-link:hover {
+  color: #ea8625;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.mainpage-slot {
+  font-family: "Helvetica";
+  font-size: 1.2em;
+}
+
+.mainpage-slot p {
+  text-align: justify;
+}
+
+a.anchor {
+  display: block;
+    position: relative;
+    top: -64px;
+    visibility: hidden;
+}
+
+#origine {
+  background-color: #dadada;
+}
+
+#format {
+  background-color: #dadada;
+}
+
+#contribuer {
+  background-color: #dadada;
+}
+
+#cfp-exemple {
+    background-color: #dadada;
+}
+
+#content {
+  padding-top: 64px;
+}
