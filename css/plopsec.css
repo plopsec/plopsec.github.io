@@ -54,22 +54,100 @@ a.anchor {
     visibility: hidden;
 }
 
+#logo {
+  padding-bottom: 90px;
+  background-image: url('../img/city.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 #origine {
   background-color: #dadada;
+  padding-top: 50px;
+  padding-bottom: 90px;
 }
 
 #format {
   background-color: #dadada;
 }
 
-#contribuer {
+#assister {
   background-color: #dadada;
+}
+
+#contribuer {
+  padding-top: 50px;
+  background-color: #3b3939;
+  color: #dadada;
+  padding-bottom: 90px;
 }
 
 #cfp-exemple {
     background-color: #dadada;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 #content {
-  padding-top: 64px;
+  /*padding-top: 64px;*/
+}
+
+#origine-transition {
+  /*border: solid #3b3939 10px;*/
+  position: relative;
+  top: -100px;
+  background: #3b3939;
+  color: #dadada;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding-left: 32px;
+  padding-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  /*transform: rotate(15deg);*/
+}
+
+#origine-transition i {
+  color: #dadada;
+}
+
+#contribuer-transition {
+  /*border: solid #3b3939 10px;*/
+  position: relative;
+  top: -100px;
+  background: #dadada;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding-left: 20px;
+  padding-top: 26px;
+  margin-right: auto;
+  margin-left: auto;
+  transform: rotate(-45deg);
+  padding-bottom: 40px;
+}
+
+#contribuer-transition i {
+  color: #333;
+}
+
+
+#example-transition {
+  /*border: solid #3b3939 10px;*/
+  position: relative;
+  top: -100px;
+  background: #3b3939;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding-left: 40px;
+  padding-top: 26px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 40px;
+}
+
+#example-transition i {
+  color: #dadada;
 }
