@@ -17,6 +17,7 @@ h5 {
 }
 
 body {
+  color: #333;
   background-color: #3b3939;
 }
 
@@ -34,6 +35,10 @@ body a:visited {
   color: #ff7100;
   font-weight: bold;
   text-decoration: none;
+}
+
+p {
+  text-align: justify;
 }
 
 .navbar {
