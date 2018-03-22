@@ -78,8 +78,9 @@ a.anchor {
 #logo {
   padding-bottom: 90px;
   background-image: url('../img/city.png');
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
 }
 
 #motto {
