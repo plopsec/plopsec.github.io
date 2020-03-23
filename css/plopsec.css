@@ -27,6 +27,10 @@ body a {
   text-decoration: none;
 }
 
+body a.inv {
+  text-decoration: none;
+}
+
 body a:hover {
   text-decoration: underline;
 }
@@ -34,6 +38,10 @@ body a:hover {
 body a:visited {
   color: #ff7100;
   font-weight: bold;
+  text-decoration: none;
+}
+
+body a.inv:visited {
   text-decoration: none;
 }
 
@@ -83,12 +91,44 @@ a.anchor {
   background-repeat: no-repeat;
 }
 
+#logo a {
+  color: #dadada;
+  background-color: none;
+  transition: background-color .2s ease-in-out;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+  border-radius: 4px;
+}
+
+@keyframes grow {
+  0% {
+    background-color: none;
+  }
+  100% {
+    background-color: #dadada;
+  }
+}
+
+#logo a:hover {
+  color: #333;
+  background-color: #dadada;
+  text-decoration: none;
+  transition: background-color .2s ease-in-out;
+}
+
+#logo a:visited {
+  text-decoration: none;
+}
+
+
 #motto {
   padding-top: .5em;
   font-family: Helvetica;
   font-size: 3em;
   color: #efefef;
 }
+
 #meetus {
     display: inline;
 }
