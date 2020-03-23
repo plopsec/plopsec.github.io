@@ -77,17 +77,25 @@ a.anchor {
 
 #logo {
   padding-bottom: 90px;
-  background-image: url('../img/city.png');
+  background-image: url('../img/city2.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #motto {
-  padding-top: 2em;
+  padding-top: .5em;
   font-family: Helvetica;
   font-size: 3em;
-  color: #dadada;
+  color: #efefef;
+}
+#meetus {
+    display: inline;
+}
+
+#twitch {
+  width: 80px;
+  display: inline-block;
 }
 
 #origine {
