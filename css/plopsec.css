@@ -131,10 +131,11 @@ a.anchor {
 
 #meetus {
     display: inline;
+    font-size: .8em;
 }
 
 #twitch {
-  width: 80px;
+  width: 180px;
   display: inline-block;
 }
 
