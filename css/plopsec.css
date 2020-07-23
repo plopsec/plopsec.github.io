@@ -129,6 +129,13 @@ a.anchor {
   color: #efefef;
 }
 
+#yt {
+  padding-top: .5em;
+  font-family: Helvetica;
+  font-size: 2.4em;
+  color: #efefef;
+}
+
 #meetus {
     display: inline;
     font-size: .8em;
@@ -228,4 +235,26 @@ a.anchor {
 
 #example-transition i {
   color: #dadada;
+}
+
+#replay {
+  background-color: #dadada;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+#replay div#replay-icon {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#replay h1 {
+  font-family: "Helvetica";
+  font-size: 3em;
+}
+
+#replay iframe {
+  margin-left: auto;
+  margin-right: auto;
 }
